@@ -21,7 +21,11 @@ Route::get('/ipsum/{paragraphs}','IpsumController@show')->name ('ipsum.show');
 
 
 
-Route::get('/users','UserController@index')->name ('users.index');
+Route::get('/user','UserController@index')->name ('user.index');
+
+Route::post('/user', 'UserController@store')->name('user.store');
+
+Route::get('/user/{users}','UserController@show')->name ('user.show');
 
 
 

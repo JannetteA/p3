@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-        @yield('title','P3 - Laravel Basics')
+        @yield('title','P3 - Laravel Basics:  Developers Best Friend')
     </title>
 
     <meta charset='utf-8'>
@@ -14,14 +14,14 @@
 <body>
 
     <header>
-        <span>P3: Laravel Basics</span>
+        <span>P3 - Laravel Basics:  Developers Best Friend</span>
     </header>
 
 
     <nav>
     <a href="/">Home</a>
     <a href="../ipsum">ICU Lorem Ipsum Generator </a>
-    <a href="../users">ICU Random User Generator</a>
+    <a href="../user">ICU Random User Generator</a>
     </nav>
 
 

@@ -26,9 +26,7 @@ class IpsumController extends Controller
         $HowManyParagraphs = $request->input('HowManyParagraphs');
         #$HowManyParagraphs = $_POST['HowManyParagraphs'];
 
-
         #Validate the request here
-
 
         #Logic to obtain paragraphs
         $generator = new \Badcow\LoremIpsum\Generator();
