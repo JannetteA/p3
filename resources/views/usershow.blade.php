@@ -10,11 +10,9 @@
 
 @section('content')
 	<div class="container">
-
 		
 	<h1>ICU Random User Generator</h1>
-	
-       
+    
         <p>  
         <?php
         for ($i=0; $i < $HowManyUsers; $i++) {
@@ -22,6 +20,5 @@
         }?>
         </p>
 
-	
-    </div>
+	</div>
 @stop

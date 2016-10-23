@@ -33,6 +33,8 @@ To be added
 No login required.
 
 ## Outside code
-The following resources were used:
 
-		(to be added)
+1) I used a lot of the examples from class, mainly from Lecture 6. For example, master.blade.php is basically the same code provided in the Lecture content.
+2) The basic forms are also from the examples in class. 
+3) The echo syntax using the paragraph argument was obtain from examples in www.Stackoverflow.com
+4) The packages used  were found in www.Packagist.org

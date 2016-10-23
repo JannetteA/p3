@@ -58,37 +58,24 @@ body {
 		background-color: white;
  }
 
-.button {
-		font-size: 100%;
-		margin-top: 15px;
-		margin-bottom: 15px;
-}
-
-
 footer 	{
 		font-size: 80%;
 		text-align: center;
 }
 
-img 	{
-		text-align: center;
-}
 
 h1		{
 		padding-top: 30px;
 		padding-bottom: 30px;
 }
 
-}
 h3		{
 		font-size: 90%;
 		padding-top: 40px;
 }
+
 p 		{
 		padding-left: 30px;
 		padding-right: 30px;
 }
 
-nav 	{
-
-}
