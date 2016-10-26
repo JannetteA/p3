@@ -7,9 +7,13 @@ http://p3.nowihavetime.com/
 The goal of this project is to give students hands-on practice with working with the essentials of building a Laravel-based site. In building this project students demonstrate an understanding of the following skills:
 
 1) Creating a new Laravel application.
+
 2) Installing and using Composer packages.
+
 3) Routing basics.
+
 4) Views.
+
 5) Deploying a Laravel app on a live server.
 
 ## Tasks
