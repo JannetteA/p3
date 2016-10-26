@@ -61,6 +61,7 @@ body {
 footer 	{
 		font-size: 80%;
 		text-align: center;
+		padding-bottom: 30px;
 }
 
 
@@ -77,5 +78,17 @@ h3		{
 p 		{
 		padding-left: 30px;
 		padding-right: 30px;
+}
+
+.error  {
+		color: red;
+		margin-top: 15px;
+		margin-bottom: 50px;
+		font-size: 80%;
+}
+
+ul      {
+		list-style-type: none;
+		color: red;
 }
 

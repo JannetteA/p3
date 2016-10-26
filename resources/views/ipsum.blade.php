@@ -13,24 +13,23 @@
 			
 	<h1>ICU Lorem Ipsum Generator</h1>
 
-    <p>How many paragraphs do you need?</p>
+    <p>How many paragraphs do you need? (Max 10)</p>
 
-    	<form method='POST' action='/ipsum'>
+       
+        <form method='POST' action='/ipsum'>
         {{ csrf_field() }}
-        <input type='text' name='HowManyParagraphs'>
+        <input type='number' name='HowManyParagraphs' value="1" min="1" max="10">
         <input type='submit' value='Submit'>
-   
+        </form>
+
         @if(count($errors) > 0)
             <ul>
                 @foreach($errors->all() as $error)
-                    <li>{{ $error }}</li>
+                    <ul>{{ $error }}</ul>
                 @endforeach
             </ul>
         @endif
-
-    </form>
-
-    <p>This form does not have validation yet, it will be added soon!</p>
-    
+        
+            
     </div>
 @stop

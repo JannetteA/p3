@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-use \joshtronic\LoremIpsum;
+use \Badcow\LoremIpsum;
 
 class IpsumController extends Controller
 {
@@ -23,16 +23,19 @@ class IpsumController extends Controller
 
     public function store(Request $request)   
     {
+        
+        #Validate the request after submit
+        $this->validate($request, [
+        'HowManyParagraphs' => 'required|numeric|min:1|max:10',
+        ]);
+
+        # Obtaining data from form
         $HowManyParagraphs = $request->input('HowManyParagraphs');
-        #$HowManyParagraphs = $_POST['HowManyParagraphs'];
-
-        #Validate the request here
-
+        
         #Logic to obtain paragraphs
         $generator = new \Badcow\LoremIpsum\Generator();
         $paragraphs = $generator->getParagraphs($HowManyParagraphs);
         
-
         #Display the results
         Return view('ipsumshow')->with('paragraphs', $paragraphs);
             
