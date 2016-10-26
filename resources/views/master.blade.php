@@ -11,6 +11,7 @@
         @yield('head')
 
 </head>
+
 <body>
 
     <header>
@@ -19,9 +20,9 @@
 
 
     <nav>
-    <a href="/">Home</a>
-    <a href="../ipsum">ICU Lorem Ipsum Generator </a>
-    <a href="../user">ICU Random User Generator</a>
+        <a href="/">Home</a>
+        <a href="../ipsum">ICU Lorem Ipsum Generator </a>
+        <a href="../user">ICU Random User Generator</a>
     </nav>
 
 
@@ -32,7 +33,6 @@
 
     <footer>
         &copy; Jannette A. {{ date('Y') }}  
-
     </footer>
 
     @yield('body')

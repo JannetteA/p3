@@ -20,10 +20,12 @@ class UserController extends Controller
         return view('user');
     }
 
-
+    /**
+     * This function validates the data from the form and leverages a package to 
+     * generate the random users needed. It will send the results to another page.
+     */
     public function store(Request $request)   
     {
-        
         #Validate the request after submit
         $this->validate($request, [
         'HowManyUsers' => 'required|numeric|min:1|max:20',
@@ -40,6 +42,5 @@ class UserController extends Controller
             ->with('faker', $faker)
             ->with('HowManyUsers', $HowManyUsers);
     }
-       
 }
 

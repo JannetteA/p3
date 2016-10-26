@@ -9,16 +9,18 @@
 @stop
 
 @section('content')
+
 	<div class="container">
 		
-	<h1>ICU Random User Generator</h1>
+		<h1>ICU Random User Generator</h1>
     
-        <p>  
-        <?php
-        for ($i=0; $i < $HowManyUsers; $i++) {
-        	 echo "<p>" . $faker->name . "</p>";
-        }?>
-        </p>
+	        <!-- This simple sectin displays the random user names in proper format -->
+	        <p>  
+	        <?php
+	        for ($i=0; $i < $HowManyUsers; $i++) {
+	        	 echo "<p>" . $faker->name . "</p>";
+	        }?>
+	        </p>
 
 	</div>
 @stop

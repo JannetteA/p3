@@ -21,9 +21,12 @@ class IpsumController extends Controller
     }
 
 
+    /**
+     * This function validates the data from the form and leverages a package to 
+     * generate the Lorem Ipsum paragraphs needed. It will send the results to another page.
+     */
     public function store(Request $request)   
     {
-        
         #Validate the request after submit
         $this->validate($request, [
         'HowManyParagraphs' => 'required|numeric|min:1|max:10',
@@ -39,6 +42,5 @@ class IpsumController extends Controller
         #Display the results
         Return view('ipsumshow')->with('paragraphs', $paragraphs);
             
-    }
-       
+    }  
 }
