@@ -6,11 +6,11 @@ http://p3.nowihavetime.com/
 ## Description
 The goal of this project is to give students hands-on practice with working with the essentials of building a Laravel-based site. In building this project students demonstrate an understanding of the following skills:
 
-Creating a new Laravel application.
-Installing and using Composer packages.
-Routing basics.
-Views.
-Deploying a Laravel app on a live server.
+1) Creating a new Laravel application.
+2) Installing and using Composer packages.
+3) Routing basics.
+4) Views.
+5) Deploying a Laravel app on a live server.
 
 ## Tasks
 1) Create a web application called Developer's Best Friend which includes a Lorem Ipsum Generator and a Random User Generator.
@@ -26,14 +26,10 @@ Deploying a Laravel app on a live server.
 ## Demo
 To be added
 
-## Details for teaching team
+## Details for Teaching Team
 I used a hospital ICU theme because my father was in the ICU for 18 days starting on 10/2 and that is the only thing that I could related to while working on this project. I visited daily and I learned a lot in the ICU in the same way that I have learned a lot in this class.  By the way, my father made huge progress and is now in therapy, almost ready to go home. 
 
-Initially, I only added the Laravel validation and I made sure it was working. While listening to Lecture 7 again, where Susan talks about validation around 1:09 in the video, she mentioned that we should be doing both, form validation and Laravel server side validation. The Laravel validation works perfectly, I tested that well, however, the messages you will see are coming from the form. 
+Initially, I only added the Laravel validation and I made sure it was working. While listening to lecture 7 again, where Susan Buck talks about validation around 1:09 in the video, she mentioned that we should be doing both as a best practice in the real world, form validation and Laravel server side validation. The Laravel validation works perfectly, I tested that well, however, the messages you will see are coming from the form. 
 
 ## Outside code
-
-1) I used a lot of the examples from class, mainly from lecture 6 and lecture 7. For example, master.blade.php is basically the same code provided in the lecture content.
-2) The basic forms are also from the examples in class. 
-3) The echo syntax using the paragraph argument was obtain from examples in Stackoverflow.com
-4) The packages used  were found in Packagist.org
+I used a lot of the examples from class, mainly from lecture 6 and lecture 7. For example, master.blade.php is basically the same code provided in the lecture content.  The basic forms are also from the examples in class. The echo syntax using the paragraph argument was obtain from examples in Stackoverflow.com and the packages used  were found in Packagist.org

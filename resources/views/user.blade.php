@@ -11,14 +11,13 @@
 @section('content')
     <div class="container">
         
-        
     <h1>ICU Random User Generator</h1>
         
     <p>How many users do you need? (Max 20)</p>
 
         <form method='POST' action='/user'>
         {{ csrf_field() }}
-        <input type='number' name='HowManyUsers' value="1" min="1" max="20">
+        <input type="text" maxlengh="2" name='HowManyUsers' value="1">
         <input type='submit' value='Submit'>
            
         @if(count($errors) > 0)

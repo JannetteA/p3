@@ -18,7 +18,7 @@
        
         <form method='POST' action='/ipsum'>
         {{ csrf_field() }}
-        <input type='number' name='HowManyParagraphs' value="1" min="1" max="10">
+        <input type="text" maxlengh="2" name='HowManyParagraphs' value="1">
         <input type='submit' value='Submit'>
         </form>
 
