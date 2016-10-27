@@ -91,3 +91,8 @@ ul      {
 		color: red;
 }
 
+li      {
+		list-style-type: none;
+		color: red;
+}
+

@@ -25,7 +25,7 @@
             @if(count($errors) > 0)
                 <ul>
                     @foreach($errors->all() as $error)
-                        <ul>{{ $error }}</ul>
+                        <li>{{ $error }}</li>
                     @endforeach
                 </ul>
             @endif
