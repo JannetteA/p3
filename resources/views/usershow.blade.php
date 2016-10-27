@@ -15,12 +15,12 @@
 		<h1>ICU Random User Generator</h1>
     
 	        <!-- This simple sectin displays the random user names in proper format -->
-	        <p>  
+	        <div>  
 	        <?php
 	        for ($i=0; $i < $HowManyUsers; $i++) {
 	        	 echo "<p>" . $faker->name . "</p>";
 	        }?>
-	        </p>
+	        </div>
 
 	</div>
 @stop

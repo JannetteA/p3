@@ -9,13 +9,16 @@
 @stop
 
 @section('content')
+	
 	<div class="container">
 		
-	<h1>ICU Lorem Ipsum Generator</h1>
+		<!-- This simple sectin displays the paragraphs in proper format -->
+		<h1>ICU Lorem Ipsum Generator</h1>
 	
-    <p> 
-        <span><?php echo implode('<p>', $paragraphs) ?></span>
-    </p>
+	    <p>
+	        <?php echo implode('<p>', $paragraphs) ?>
+	    </p>
 	
     </div>
+
 @stop

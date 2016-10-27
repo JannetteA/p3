@@ -20,7 +20,7 @@
             <!-- The form and error handling starts here -->
             <form method='POST' action='/ipsum'>
             {{ csrf_field() }}
-            <input type="text" maxlengh="2" name='HowManyParagraphs' value="1">
+            <input type="text" maxlength="2" name='HowManyParagraphs' value="1">
             <input type='submit' value='Submit'>
             </form>
 

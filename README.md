@@ -28,7 +28,8 @@ The goal of this project is to give students hands-on practice with working with
 5) The forms are checked by server-side validation and users are given feedback when their data input is invalid. In order to address this task, we follow the guidance in Lecture 7 which discusses validation with Laravel.
 
 ## Demo
-To be added
+http://screencast.com/t/B0kj1mIiuxJ
+
 
 ## Details for Teaching Team
 I used a hospital ICU theme because my father was in the ICU for 18 days starting on 10/2 and that is the only thing that I could related to while working on this project. I visited daily and I learned a lot in the ICU in the same way that I have learned a lot in this class.  (By the way, my father made huge progress and is now in therapy, almost ready to go home!). 

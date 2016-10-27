@@ -19,7 +19,7 @@
             <!-- The form and error handling starts here -->
             <form method='POST' action='/user'>
             {{ csrf_field() }}
-            <input type="text" maxlengh="2" name='HowManyUsers' value="1">
+            <input type="text" maxlength="2" name='HowManyUsers' value="1">
             <input type='submit' value='Submit'>
                
             @if(count($errors) > 0)
